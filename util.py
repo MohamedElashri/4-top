@@ -29,7 +29,7 @@ def prepare_input(df, particle_count=False):
     return df, cat_df
 
 
-def read_data(PATH = '', FILENAME = 'TrainingValidationData_200k_shuffle.csv'):
+def read_data(PATH = '', FILENAME = 'data.csv'):
 
 	"""
 	Read the dataframe while ensuring proper splitting of the 4-vectors.
